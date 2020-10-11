@@ -24,7 +24,7 @@ img {
     margin-right: 30px;
 }
 
-.container-one {
+/* .container-one {
     display: flex;
     margin: 120px auto;
     padding: 10px;
@@ -60,4 +60,107 @@ h1, span {
     margin: 18px;
     max-width: 450px;
 }
+ */
 
+
+
+.upper {
+    background-color: lightpink;
+    padding:0.5em;
+    margin: 120px auto 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: space-around;
+    
+  }
+  
+  .box {
+     background-color: lightblue;
+     margin: 0.5em;
+    width: 50%;
+  }
+  
+  .title {
+    padding:0.5em;
+    max-width: 450px;
+  }
+  
+  h1,p {
+    color: hsl(300, 43%, 22%);
+     margin: 0;
+  }
+  
+  .header {
+    font-size: 50px;
+    margin-bottom: 12px;
+  }
+  
+  .ratings {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: auto;
+  }
+  
+  .strips {
+    background-color: lightgreen;
+    border-radius: 10px;
+
+    display: flex;
+
+    padding: 18px;
+    max-width: 445px;
+  }
+  
+  .strip-one {
+    margin: 0;
+  }
+  
+  .strip-two {
+    margin: 20px 80px;
+  }
+  
+  .strip-three {
+    margin: 0 0 20px 160px;
+  }
+
+
+  .container {
+    background-color: blue;
+    
+    display: flex;
+
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+
+    margin: 50px 165px;
+  }
+  
+  .card {
+    background-color: lightpink;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 360px;
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    border-radius: 50%;
+    background-color: purple;
+    margin-right: 30px;
+  }
+  
+  .irene {
+    margin-top: 20px;
+  }
+  
+  .anne {
+    margin-top: 40px;
+  }
